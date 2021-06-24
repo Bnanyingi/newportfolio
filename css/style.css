@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Selects the root element of the document:
+   <html> in the case of HTML */
+
+   :root{
+    --black:#000;
+    --white:#fff;
+    --gray:#333;
+    --primary:#8BFBFF;
+    --secondary:#FB38C8;
+    --third:#FF602A;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+
+body{
+    background-color: var(--black);
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+body.dark{
+    transition: all 0.3s ease;
+    --black:#fff;
+    --white:#000;
+    --gray:#333;
+    --secondary:#8BFBFF;
+    --primary:#FB38C8;
+    --third:#FF602A;
+}
+
+body.overflow{
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.pre-loader{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gray);
+}
+
+.pre-loader i{
+    color: var(--primary);
+    font-size: 50px;
+    animation: rotate  2s linear infinite;
+}
+.daybutton{
+    position: fixed;
+    top: 200px;
+    right: 10px;
+    z-index: 10;
+    border: none;
+    background-color: transparent;
+    animation: rotate 2s linear infinite;
+}
