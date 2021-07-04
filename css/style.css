@@ -26,7 +26,7 @@ body{
     overflow-x: hidden;
 }
 
-body.dark{
+body.darkMode{
     transition: all 0.3s ease;
     --black:#fff;
     --white:#000;
@@ -47,23 +47,9 @@ li{
     list-style: none;
 }
 
-.pre-loader{
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    z-index: 1000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--gray);
-}
 
-.pre-loader i{
-    color: var(--primary);
-    font-size: 50px;
-    animation: rotate  2s linear infinite;
-}
-.daybutton{
+
+.day{
     top: 200px;
     right: 10px;
     z-index: 10;
@@ -72,12 +58,12 @@ li{
     animation: rotate 2s linear infinite;
 }
 
-.daybutton i{
+.day i{
     font-size: 30px;
     color: var(--white);
 }
 
-.nightbutton{
+.night{
     display: none;
     top: 200px;
     right: 10px;
@@ -87,7 +73,7 @@ li{
     animation: rotate 2s linear infinite;
 }
 
-.nightbutton i{
+.night i{
     font-size: 30px;
     color: var(--white);  
 }
