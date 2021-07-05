@@ -17,6 +17,10 @@ const disableDarkMode = () => {
     localStorage.setItem('darkMode', null)
   };
 
+  if (darkMode === 'enabled') {
+    enableDarkMode();
+  }
+
 
 day.addEventListener("click", () =>{
    darkMode = localStorage.getItem("darkMode");
