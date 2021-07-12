@@ -246,3 +246,37 @@ h1{
     border-radius: 50%;
     background-color: var(--primary);
 }
+
+footer{
+    
+    width: 100%;
+}
+
+.footer-section{
+    width: 30%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.media-icons a{
+    text-decoration: none;
+}
+.media-icons a img{
+    box-shadow:  0 4px 8px 0 rgba(255,255,255), 0 6px 20px 0 rgba(255,255,255, 0.19);
+    margin: 5px;
+    width: 30px; 
+    height: 30px;
+    transition: 0.5s;
+    border-radius: 15px;
+    align-items: center;
+
+}
+
+/*About Us*/
+
+.github-img{
+    width: 100vw;
+    height: 80vh;
+}
