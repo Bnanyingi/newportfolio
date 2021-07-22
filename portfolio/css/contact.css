@@ -4,6 +4,9 @@
     height: 80vh;
     display: grid;
     grid-template-columns: 1fr;
+    margin-top: -500px;
+
+
 }
 
 .container h2{

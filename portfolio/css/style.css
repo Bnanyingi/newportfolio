@@ -75,27 +75,14 @@ li{
 }
 
 
-header{
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    background-color: var(--black);
-}
-
-@media screen and (min-width:1200px){
-    .header{
-       height: 100vh;
-       width: 100vw; 
-    }
-
-}
-
 .navbar{
     height: 100vh;
     padding: 40px 100px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
+    position: relative;
+  
 }
 
 .sidenav{
@@ -107,6 +94,10 @@ header{
        height: 100vh;
        width: 100vw; 
 
+    }
+
+    .navbar{
+        display: none;
     }
 
 }
