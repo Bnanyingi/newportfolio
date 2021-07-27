@@ -43,7 +43,8 @@ body.darkMode{
 
 .container h2 span{
     color: #8BFBFF;
-    padding-right: 5px;
+    text-align: center;
+    justify-content: center;
 }
 
 .container .box{
@@ -163,17 +164,14 @@ input[type=submit]{
     border:#000;
     border-radius: 5px;
     display: block;
-    width: 50%;
+    width: 100vw;
     margin: auto;
     text-align: center;
     transition: 0.3s linear;
     font-weight: bold;
 
 }
-:hover, :focus{
-    color: #61b1f3;
-    background: var(--primary);
-}
+
 
 @media screen and (max-width:1200px){
     .container h2{
