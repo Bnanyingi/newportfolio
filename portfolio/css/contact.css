@@ -1,3 +1,13 @@
+:root{
+    --black:#000;
+    --white:#fff;
+    --gray:#333;
+    --primary:#8BFBFF;
+    --secondary:#FB38C8;
+    --third:#FF602A;
+
+}
+
 .container{
     
     width: 100vw;
@@ -119,7 +129,7 @@
 
 .container .box form .message #message{
     height: 90px;
-    width: 100%;
+    width: 95%;
     padding: 5px;
     outline: none;
     border: 1px solid #000;
@@ -127,7 +137,45 @@
 }
 
 .container .box form .submit{
-    grid-column: 0.3333333333;
+    grid-column: 0.33333333;
 }
 
+/* Submit button*/
+
+input[type=submit]{
+    cursor: pointer;
+    background:#000;
+    letter-spacing: 40px;
+    padding:10px;
+    border:#000;
+    border-radius: 5px;
+    display: block;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transition: 0.3s linear;
+    font-weight: bold;
+
+}
+:hover, :focus{
+    color: #61b1f3;
+    background: var(--primary);
+}
+
+@media screen and (max-width:1200px){
+    .container h2{
+        justify-content: flex-start;
+        align-items: flex-end;
+        font-size: 15px;
+
+    }
+    .box{
+        grid-template-columns: 90px 80px;
+    }
+    
+    .info{
+        grid-row: 0.3333333;
+        font-size: 15px;
+    }
+}
 
