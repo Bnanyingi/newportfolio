@@ -8,13 +8,26 @@
 
 }
 
+
+body.darkMode{
+    transition: all 0.3s ease;
+    --black:#fff;
+    --white:#000;
+    --gray:#333;
+    --secondary:#8BFBFF;
+    --primary:#FB38C8;
+    --third:#FF602A;
+}
+
+
 .container{
     
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 150px;
     margin-top: -500px;
+    background-color: var(--black);
 
 
 }
