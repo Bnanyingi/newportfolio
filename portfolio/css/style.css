@@ -61,6 +61,7 @@ li{
 
 @media screen and (max-width:1200px){
     .day{
+        position: fixed;
         top: 150px;
         right: 10px;
         z-index: 10;
@@ -265,9 +266,11 @@ footer{
 
 }
 
-/*About Us*/
+/*Skills*/
 
 .github-img{
+    
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
+    margin-top: -500px;
 }

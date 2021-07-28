@@ -25,7 +25,7 @@ body.darkMode{
     display: flex;
     width: 100vw;
     height: 100vh;
-    background: var(--primary);
+    background: var(--black);
     margin-top: -550px;
 }
 
@@ -39,7 +39,7 @@ body.darkMode{
 }
 
 .right-col{
-    background: var(--primary);
+    background: var(--black);
     width: 50vw;
     height: 100vh;
     padding: 5rem 3.5rem;
@@ -52,7 +52,7 @@ h2, label, button{
 }
 
 h2{
-    color: var(--black);
+    color: var(--primary);
     text-transform: uppercase;
     font-size: 2.5rem;
     letter-spacing: 0.5rem;
@@ -60,7 +60,7 @@ h2{
 }
 
 p{
-    color: var(--black);
+    color: var(--primary);
     font-size: 0.9rem;
     letter-spacing: 0.01rem;
     width: 40vw;
@@ -109,7 +109,7 @@ input, textarea {
     resize: none;
   }
   
-  button {
+  .submit-sub{
     text-transform: uppercase;
     font-weight: 300;
     background: var(--button-color);
@@ -118,7 +118,6 @@ input, textarea {
     height: 2.25rem;
     border: none;
     border-radius: 2px;
-    outline: none;
     cursor: pointer;
     justify-content: center;
     text-align: center;

@@ -35,7 +35,7 @@ const validate = (e) => {
   e.preventDefault();
   setTimeout(function () {
     successMsg.innerHTML = '';
-    document.getElementById('contact-form').reset();
+    document.getElementById('index.html').reset();
   }, 6000);
 
   return true;
