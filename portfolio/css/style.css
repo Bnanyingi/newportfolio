@@ -114,7 +114,7 @@ h1{
     margin-left: 50px;
     display: flex;
     flex-wrap: wrap;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 }
 
 .navbar ul li a{
