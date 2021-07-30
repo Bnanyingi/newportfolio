@@ -6,7 +6,6 @@
 }
 
 .logo img{
-    top: -200px;
     width: 150px;
     height: 150px;
     border-radius: 75px;
@@ -15,7 +14,7 @@
 }
 
 .wrap{
-    
+    top: 150px;
     width: 100vw;
     margin: auto;
     justify-content: center;
@@ -27,12 +26,11 @@ body{
     url("../img/barbara1.jpg");
     height: 100vh;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     position: relative;
 }
 
 .welcome-text{
-    position: absolute;
     margin: 20% 30%;
     text-align: center;
 
@@ -40,7 +38,7 @@ body{
 
 .welcome-text h4{
 
-    margin-top: -800px;
+    
     text-align: center;
     color: #fff;
     font-family: 'Gowun Dodum', sans-serif;
