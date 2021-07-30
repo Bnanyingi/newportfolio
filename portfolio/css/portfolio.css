@@ -1,0 +1,52 @@
+:root{
+    --black:#000;
+    --white:#fff;
+    --gray:#333;
+    --primary:#8BFBFF;
+    --secondary:#FB38C8;
+    --third:#FF602A;
+    --button-color: #3B3636;
+
+}
+
+
+body.darkMode{
+    transition: all 0.3s ease;
+    --black:#fff;
+    --white:#000;
+    --gray:#333;
+    --secondary:#8BFBFF;
+    --primary:#FB38C8;
+    --third:#FF602A;
+}
+
+#portfolio{
+    background-color: var(--primary);
+
+}
+
+#portfolio h2{
+    padding-bottom: 1.25em;
+}
+
+@media screen and (min-width: 768px){
+    .portfolio-project{
+        margin-top: 0.625em;
+    }
+    .project-title{
+        margin-top: 0.9375em;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .project-title{
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .project-title{
+        margin-top: 5%;
+    }
+
+}
