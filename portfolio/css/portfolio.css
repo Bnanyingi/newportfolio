@@ -1,0 +1,89 @@
+:root{
+    --black:#000;
+    --white:#fff;
+    --gray:#333;
+    --primary:#8BFBFF;
+    --secondary:#FB38C8;
+    --third:#FF602A;
+    --button-color: #3B3636;
+
+}
+
+
+body.darkMode{
+    transition: all 0.3s ease;
+    --black:#fff;
+    --white:#000;
+    --gray:#333;
+    --secondary:#8BFBFF;
+    --primary:#FB38C8;
+    --third:#FF602A;
+}
+
+
+
+
+.container1{
+    margin-top: -500px;
+}
+.project-grid{
+    padding-top: 3em;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+
+
+h5{
+    font-size: 50px;
+    font-family: 'Gowun Dodum', sans-serif;
+    text-transform: uppercase;
+}
+
+.thumbnail{
+    background: var(--white);
+    display: flex;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 0.5em;
+    overflow: hidden;
+    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+    flex: 1;
+    order: 2;
+
+}
+.thumbnail:hover, .thumbnail:focus{
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    transform: scale(1.01);
+}
+.co{
+    display:flex;
+
+}
+.co .thumbnail{
+    width:50%;
+}
+.co .thumbnail img{
+    width: 100%;
+}
+.co .project-description{
+    width:50%;
+}
+.project-description{
+    flex: 1;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+
+}
+
+.project-title{
+    font-size: 40px;
+    color: var(--primary);
+    padding-top: 2%;
+}
+
+.project-text{
+    color: var(--white);
+}
