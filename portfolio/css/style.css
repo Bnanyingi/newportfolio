@@ -86,9 +86,7 @@ li{
   
 }
 
-.sidenav{
-    display: none;
-}
+
 
 .side-navv{
     height: 100%;
@@ -98,7 +96,7 @@ li{
     top: 0;
     left: 0;
     background-color: #fff;
-    opacity: 0.9;
+    opacity: 1;
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
@@ -126,6 +124,23 @@ li{
     font-size: 36px;
     margin-left: 50px;
 }
+
+#main{
+    position: center;
+}
+
+@media screen and (min-width: 960px){
+    .side-navv{
+        display: none;
+    }
+}
+    
+@media screen and (max-width: 1200px){
+    .navbar{
+        display: none;
+    }
+}
+
 
 
 
