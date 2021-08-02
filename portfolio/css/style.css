@@ -90,18 +90,45 @@ li{
     display: none;
 }
 
-@media screen and (max-width:1200px){
-    .sidenav{
-       height: 100vh;
-       width: 100vw; 
-
-    }
-
-    .navbar{
-        display: none;
-    }
+.side-navv{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
 
 }
+
+.side-navv a{
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ccc;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.side-navv a:hover{
+    color: var(--secondary);
+}
+
+.side-navv .btn-close{
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
 
 h1{
     color: var(--white)
