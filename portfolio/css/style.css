@@ -127,10 +127,17 @@ li{
 
 #main{
     position: center;
+    transition: margin-left 0.5s;
+    padding: 20px;
+    overflow: hidden;
+    width: 100%;
 }
 
 @media screen and (min-width: 960px){
     .side-navv{
+        display: none;
+    }
+    .open-slide{
         display: none;
     }
 }

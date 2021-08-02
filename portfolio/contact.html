@@ -17,15 +17,31 @@
     </button>
   
     
-        <div class="sidenav">
-            
-            <li><a class="nav-btn1" href="about.html">About</a></li>
-            <li><a class="nav-btn2" href="skills.html">Skills</a></li>
-            <li><a class="nav-btn3" href="portfolio.html">Portfolio</a></li>
-            <li><a class="nav-btn4" href="services.html">Services</a></li>
-            <li><a class="nav-btn5" href="contact.html">Contact</a></li>
+        
+    <div class="sidenav">
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0, 5 30,5" stroke="#fff"
+                    stroke-width="5"/> 
+                    <path d="M0, 14 30,14" stroke="#fff"
+                    stroke-width="5"/> 
+                    <path d="M0, 23 30,23" stroke="#fff"
+                    stroke-width="5"/> 
 
+                </svg>
+            </a>
+        </span>
+        <div id="side-menu" class="side-navv">
+            <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <a class="nav-btn1" href="about.html">About</a>
+            <a class="nav-btn2" href="skills.html">Skills</a>
+            <a class="nav-btn3" href="portfolio.html">Portfolio</a>
+            <a class="nav-btn4" href="services.html">Services</a>
+            <a class="nav-btn5" href="contact.html">Contact</a>
         </div>
+    </div>
+
         <nav class="navbar">
             <h1><a href="index.html">Barbara</a></h1>
             <ul class="nav">
@@ -70,7 +86,21 @@
             </div>
         </div>
  
-
+        <script>
+            function openSlideMenu(){
+                document.getElementById('side-menu').style.width
+                ='250px';
+                document.getElementById('main').style.marginLeft
+                ='250px';
+            }
+    
+            function closeSlideMenu(){
+                document.getElementById('side-menu').style.width
+                ='0';
+                document.getElementById('main').style.marginLeft
+                ='0';
+            }
+        </script>
    
     <script src="./js/contact.js"></script>
     <script src="./js/index.js"></script>
