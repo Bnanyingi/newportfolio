@@ -63,7 +63,6 @@ li{
     .day{
         position: fixed;
         top: 150px;
-        right: 10px;
         z-index: 10;
         animation: rotate 2s linear infinite;
     }
@@ -125,13 +124,7 @@ li{
     margin-left: 50px;
 }
 
-#main{
-    position: center;
-    transition: margin-left 0.5s;
-    padding: 20px;
-    overflow: hidden;
-    width: 100%;
-}
+
 
 @media screen and (min-width: 960px){
     .side-navv{
@@ -146,6 +139,19 @@ li{
     .navbar{
         display: none;
     }
+
+    .nav{
+        display: none;
+    }
+
+    #main{
+        position: center;
+        transition: margin-left 0.5s;
+        padding: 20px;
+        overflow: hidden;
+        width: 100%;
+    }
+
 }
 
 
