@@ -53,7 +53,7 @@ li{
 .day{
     top: 200px;
     right: 10px;
-    z-index: 10;
+    z-index: 20;
     border: none;
     background-color: transparent;
     animation: rotate 2s linear infinite;
