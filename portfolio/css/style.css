@@ -94,7 +94,7 @@ li{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #fff;
+    background-color: var(--black);
     opacity: 1;
     overflow-x: hidden;
     padding-top: 60px;
@@ -113,7 +113,7 @@ li{
 }
 
 .side-navv a:hover{
-    color: var(--secondary);
+    color: var(--primary);
 }
 
 .side-navv .btn-close{
@@ -139,6 +139,12 @@ li{
     .navbar{
         display: none;
     }
+
+    .day{
+        padding-right: 10px;
+        top: 10%;
+    }
+
 
     .nav{
         display: none;
@@ -198,6 +204,13 @@ h1{
     color: black;
 }
 
+@media screen and (max-width:1200px){
+    .row{
+        width: 300px;
+
+    }
+}
+
 
 .letters{
     font-family: 'Poppins', sans-serif;
@@ -234,6 +247,19 @@ h1{
     width: 80%;
     margin-bottom: 30px;
     color: var(--white);
+}
+
+@media screen and (max-width:1200px){
+    .letters{
+        height: 100%;
+        width: 90%;
+        margin: auto;
+    }
+
+    .letters h3{
+        color: var(--gray);
+    }
+
 }
 .hirebutton{
     width: 165px;
