@@ -258,8 +258,22 @@ h1{
 
     .letters h3{
         color: var(--gray);
+        font-size: 25px;
+        text-transform: uppercase;
+        text-align: center;
+        margin: auto;
+        font-weight: 900;
     }
+     .letters h1{
+         line-height: 10px;
+         font-size: 35px;
+         letter-spacing: -4px;
+         text-transform: uppercase;
+         color: var(--white);
+         text-align: center;
+         
 
+     }
 }
 .hirebutton{
     width: 165px;
