@@ -254,6 +254,7 @@ h1{
         height: 100%;
         width: 90%;
         margin: auto;
+        display: flex;
     }
 
     .letters h3{
@@ -270,7 +271,7 @@ h1{
          letter-spacing: -4px;
          text-transform: uppercase;
          color: var(--white);
-         text-align: center;
+         
          }
       .letters h1 span{
           color: var(--primary);
@@ -287,10 +288,14 @@ h1{
       }
 
         .letters p{
-            width: 60px;
+            width: 100%;
             margin-bottom: 10px;
             color: var(--white);
+            display: block;
         }
+
+    }
+
 
 .hirebutton{
     width: 165px;
@@ -304,7 +309,9 @@ h1{
     color: var(--black);
     transition: all 0.3s;
     background-color: var(--white);
-}
+    }
+
+
 @media screen and (max-width:1200px){
     .hirebutton{
         width: 100px;
@@ -385,6 +392,16 @@ footer{
     align-items: center;
     padding-left: 20px;
 }
+@media screen and (max-width:1200px){
+    .footer-section{
+        width: 30%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        padding-left: 20px;
+    }
+}
+   
 
 .media-icons a{
     text-decoration: none;
