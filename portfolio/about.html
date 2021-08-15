@@ -14,26 +14,34 @@
 </head>
    
 <body>
+
+    <style>
+        body {
+            background-image: url("../img/barbara1.jpg");
+            background-repeat: no-repeat;
+        }
+    </style>
+    
+    <div class="sidenav">
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0, 5 30,5" stroke="#000"
+                    stroke-width="5"/> 
+                    <path d="M0, 14 30,14" stroke="#000"
+                    stroke-width="5"/> 
+                    <path d="M0, 23 30,23" stroke="#000"
+                    stroke-width="5"/> 
+
+                </svg>
+            </a>
+        </span>
     
     <button class="day">
         <i class="fas fa-sun"></i>
     </button>
   
  
-    <div class="sidenav">
-        <span class="open-slide">
-            <a href="#" onclick="openSlideMenu()">
-                <svg width="30" height="30">
-                    <path d="M0, 5 30,5" stroke="#fff"
-                    stroke-width="5"/> 
-                    <path d="M0, 14 30,14" stroke="#fff"
-                    stroke-width="5"/> 
-                    <path d="M0, 23 30,23" stroke="#fff"
-                    stroke-width="5"/> 
-
-                </svg>
-            </a>
-        </span>
         <div id="side-menu" class="side-navv">
             <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
             <a class="nav-btn1" href="about.html">About</a>
@@ -57,6 +65,7 @@
         </nav>
        
         <div class="wrap">
+            
             <div class="logo">
               <img src="./img/bitmoji.jpg">  
             </div>
