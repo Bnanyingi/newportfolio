@@ -254,6 +254,7 @@ h1{
         height: 100%;
         width: 90%;
         margin: auto;
+        display: flex;
     }
 
     .letters h3{
@@ -270,11 +271,32 @@ h1{
          letter-spacing: -4px;
          text-transform: uppercase;
          color: var(--white);
-         text-align: center;
          
+         }
+      .letters h1 span{
+          color: var(--primary);
+      }
+      
+      .letters h4{
+          color: var(--white);
+          font-size: 10px;
+          text-transform: uppercase;
+          font-weight: 300;
+          margin-bottom: 10px;
+          letter-spacing: 5px;
 
-     }
-}
+      }
+
+        .letters p{
+            width: 100%;
+            margin-bottom: 10px;
+            color: var(--white);
+            display: block;
+        }
+
+    }
+
+
 .hirebutton{
     width: 165px;
     height: 35px;
@@ -287,6 +309,24 @@ h1{
     color: var(--black);
     transition: all 0.3s;
     background-color: var(--white);
+    }
+
+
+@media screen and (max-width:1200px){
+    .hirebutton{
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        border: none;
+        position: fixed;
+        font-weight: 300;
+        overflow: hidden;
+        cursor: pointer;
+        color: var(--black);
+        transition: all 0.3s;
+        background-color: var(--white);
+    }
+    
 }
 .hirebutton:before{
     content: '';
@@ -338,6 +378,12 @@ footer{
     
     width: 100%;
 }
+@media screen and (max-width:1200px){
+    .footer{
+        width: 100%;
+    }
+}
+
 
 .footer-section{
     width: 30%;
@@ -346,6 +392,16 @@ footer{
     align-items: center;
     padding-left: 20px;
 }
+@media screen and (max-width:1200px){
+    .footer-section{
+        width: 30%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        padding-left: 20px;
+    }
+}
+   
 
 .media-icons a{
     text-decoration: none;
