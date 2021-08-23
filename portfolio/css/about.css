@@ -1,0 +1,22 @@
+.wrapper1{
+    margin: auto;
+    width: 100vw;
+
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), 
+    url("/portfolio/img/barbara1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.welcome-text{
+    font-family: 'Lato', sans-serif;
+}
